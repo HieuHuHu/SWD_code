@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 import { BadRequestException, ConflictException, ForbiddenException, Injectable, UnauthorizedException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcryptjs';

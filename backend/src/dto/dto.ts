@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 import { Transform, Type } from 'class-transformer';
 import {
   ArrayMinSize, ArrayUnique, IsArray, IsEmail, IsIn, IsInt, IsNotEmpty, IsOptional, IsString, Matches, Max, MaxLength, Min, MinLength,

@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 import { ArgumentsHost, Catch, ExceptionFilter } from '@nestjs/common';
 import { QueryFailedError } from 'typeorm';
 

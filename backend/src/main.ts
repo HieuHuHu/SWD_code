@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 import 'reflect-metadata';
 import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';

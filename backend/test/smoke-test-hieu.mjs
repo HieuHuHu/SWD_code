@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 // End-to-end API test for UC40 - UC52 (Inventory, Warranty & Billing Settlement - Nguyễn Phồn Hiếu)
 // Run: node test/smoke-test-hieu.mjs
 import pg from 'pg';

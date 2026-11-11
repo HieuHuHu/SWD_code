@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 'use client';
 
 export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4001/api';

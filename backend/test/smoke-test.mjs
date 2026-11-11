@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 // End-to-end API test for UC01, UC02, UC05, UC10, UC13 (+UC12 slots, NFR-4 concurrency, NFR-5 lock-out).
 // Requires the shared seed database and this API running on :4001.   Run:  node test/smoke-test.mjs
 // The test ADDS data (accounts, vehicles, appointments) – reload the seed afterwards with Giang/database/reset-db.ps1

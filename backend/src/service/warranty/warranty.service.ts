@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 import { BadRequestException, ConflictException, ForbiddenException, Injectable, NotFoundException } from '@nestjs/common';
 import { DataSource } from 'typeorm';
 import { AuthUser } from '../../common/security/security';
@@ -174,6 +175,9 @@ export class WarrantyService {
       throw new ForbiddenException('Không có quyền xem báo cáo chi phí bảo hành');
     }
     const targetBranch = user.role === 'BRANCH_MANAGER' ? user.branchId : branchId;
+    if (targetBranch === null) {
+      throw new ForbiddenException('Không tìm thấy chi nhánh của người dùng');
+    }
     return this.dao.getWarrantyCostReport(targetBranch);
   }
 }

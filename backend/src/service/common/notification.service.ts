@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 import { Injectable } from '@nestjs/common';
 import { EntityManager } from 'typeorm';
 import { AuditLog, Notification } from '../../model/entities';

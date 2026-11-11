@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 import { Body, Controller, Get, HttpCode, Param, ParseIntPipe, Post, Query, UseGuards } from '@nestjs/common';
 import { AuthUser, CurrentUser, JwtAuthGuard, Roles, RolesGuard } from '../common/security/security';
 import { CreateAppointmentDto, CreateVehicleDto, LoginDto, RegisterDto } from '../dto/dto';

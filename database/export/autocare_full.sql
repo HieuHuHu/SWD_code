@@ -1,3 +1,4 @@
+-- Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 -- =====================================================================
 -- AutoCare – FULL DATABASE (schema + sample data) – portable SQL, PostgreSQL 12+
 -- How to load (run inside an EMPTY database, e.g. "autocare"):

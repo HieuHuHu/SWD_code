@@ -1,3 +1,4 @@
+// Author: Nguyễn Phồn Hiếu_HE191632 | Date: 9/11/2026
 export const STATUS_LABEL: Record<string, string> = {
   // appointments
   PENDING: 'Chờ xác nhận', CONFIRMED: 'Đã xác nhận', REJECTED: 'Bị từ chối', CHECKED_IN: 'Đã nhận xe', IN_SERVICE: 'Đang phục vụ',
